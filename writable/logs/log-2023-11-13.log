@@ -1,0 +1,608 @@
+ERROR - 2023-11-13 01:36:06 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 01:36:06 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tgl`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tgl:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-13 01:42:23 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Home.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\frede\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-13 01:42:38 --> Call to a member function getWhere() on null
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tambahbarang()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 01:42:59 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(56): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 01:42:59 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tgl`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tgl:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(56): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 01:43:51 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 01:43:51 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tgl`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tgl:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 01:47:34 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 01:47:34 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tgl`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tgl:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 01:49:54 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 01:49:54 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tgl`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tgl:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 01:49:57 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 01:49:57 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tgl`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tgl:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 01:52:47 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 01:52:47 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tgl`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tgl:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 01:53:56 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 01:53:56 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tgl`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tgl:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 01:57:46 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 01:57:46 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tanggal`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tanggal:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 01:59:24 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 01:59:24 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tanggal`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tanggal:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-13 01:59:26 --> Call to a member function getWhere() on null
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tambahbarang()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-13 01:59:29 --> Call to a member function getWhere() on null
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tambahbarang()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 02:00:11 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 02:00:11 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tanggal`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tanggal:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 02:00:22 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 02:00:22 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tanggal`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tanggal:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 02:02:56 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 02:02:56 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tanggal`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tanggal:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 02:02:59 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 02:02:59 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tanggal`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tanggal:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 02:04:07 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 02:04:07 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tanggal`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tanggal:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 02:04:11 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 02:04:11 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tanggal`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tanggal:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 02:09:36 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 02:09:36 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tanggal`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tanggal:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(52): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 02:24:54 --> mysqli_sql_exception: Column 'harga_awal' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 02:24:54 --> Column 'harga_awal' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tanggal`, `deskripsi_barang`, `harga_awal`) VALUES (:nama_barang:, :tanggal:, :deskripsi_barang:, :harga_awal:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 02:29:23 --> mysqli_sql_exception: Column 'harga_awal' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 02:29:23 --> Column 'harga_awal' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tanggal`, `harga_awal`, `deskripsi_barang`) VALUES (:nama_barang:, :tanggal:, :harga_awal:, :deskripsi_barang:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 02:29:27 --> mysqli_sql_exception: Column 'harga_awal' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 02:29:27 --> Column 'harga_awal' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tanggal`, `harga_awal`, `deskripsi_barang`) VALUES (:nama_barang:, :tanggal:, :harga_awal:, :deskripsi_barang:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 02:30:01 --> mysqli_sql_exception: Column 'harga_awal' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 02:30:01 --> Column 'harga_awal' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tanggal`, `harga_awal`, `deskripsi_barang`) VALUES (:nama_barang:, :tanggal:, :harga_awal:, :deskripsi_barang:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 02:31:17 --> mysqli_sql_exception: Column 'harga_awal' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 02:31:17 --> Column 'harga_awal' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tanggal`, `harga_awal`, `deskripsi_barang`) VALUES (:nama_barang:, :tanggal:, :harga_awal:, :deskripsi_barang:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 12:20:40 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 12:20:40 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tanggal`, `harga_awal`, `deskripsi_barang`) VALUES (:nama_barang:, :tanggal:, :harga_awal:, :deskripsi_barang:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-13 12:33:00 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-13 12:33:00 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_barang` (`nama_barang`, `tanggal`, `harga_awal`, `deskripsi_barang`) VALUES (:nama_barang:, :tanggal:, :harga_awal:, :deskripsi_barang:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(54): App\Models\M_tiff->tambah('tb_barang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')

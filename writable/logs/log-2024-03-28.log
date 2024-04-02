@@ -1,0 +1,6 @@
+CRITICAL - 2024-03-28 04:03:41 --> Cannot redeclare App\Controllers\Home::hapus_jadwalxi()
+in APPPATH\Controllers\Home.php on line 442.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-28 04:03:43 --> Cannot redeclare App\Controllers\Home::hapus_jadwalxi()
+in APPPATH\Controllers\Home.php on line 442.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

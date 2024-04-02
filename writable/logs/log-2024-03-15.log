@@ -1,0 +1,55 @@
+CRITICAL - 2024-03-15 11:43:25 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Home.php on line 109.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-15 11:50:24 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Home.php on line 109.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-15 11:54:21 --> Undefined property: stdClass::$id_jadwal
+in APPPATH\Views\jadwalvii.php on line 64.
+ 1 APPPATH\Views\jadwalvii.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_jadwal', 'E:\\jadwalsis\\app\\Views\\jadwalvii.php', 64)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\jadwalsis\\app\\Views\\jadwalvii.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('jadwalvii', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('jadwalvii', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->jadwalvii()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+ERROR - 2024-03-15 12:40:24 --> mysqli_sql_exception: Table 'perancanganaplikasi.viii' doesn't exist in E:\jadwalsis\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\jadwalsis\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\jadwalsis\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\jadwalsis\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\jadwalsis\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\jadwalsis\app\Models\M_jadwal.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\jadwalsis\app\Controllers\Home.php(35): App\Models\M_jadwal->tampil('viii', 'id_viii')
+#6 E:\jadwalsis\system\CodeIgniter.php(915): App\Controllers\Home->jadwalviii()
+#7 E:\jadwalsis\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\jadwalsis\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\jadwalsis\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\jadwalsis\system\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\pu...')
+#11 {main}
+CRITICAL - 2024-03-15 12:40:24 --> Table 'perancanganaplikasi.viii' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `viii`', [], false)
+ 2 APPPATH\Models\M_jadwal.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(35): App\Models\M_jadwal->tampil('viii', 'id_viii')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->jadwalviii()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')

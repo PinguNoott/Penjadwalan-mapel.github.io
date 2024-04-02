@@ -1,0 +1,182 @@
+CRITICAL - 2024-03-13 02:41:00 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Home.php on line 43.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-13 02:41:21 --> Undefined variable $d
+in APPPATH\Controllers\Home.php on line 68.
+ 1 APPPATH\Controllers\Home.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'E:\\jadwalsis\\app\\Controllers\\Home.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_jadwal()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-13 02:50:46 --> Invalid file: "jadwal.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jadwal.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('jadwal', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('jadwal', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->jadwal()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-13 03:03:54 --> Unclosed '{' on line 47
+in APPPATH\Views\jadwalsmp.php on line 95.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('jadwalsmp', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('jadwalsmp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->jadwalsmp()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-13 03:04:46 --> Unmatched '}'
+in APPPATH\Views\jadwalsmp.php on line 46.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('jadwalsmp', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('jadwalsmp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->jadwalsmp()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-13 03:04:54 --> Unclosed '{' on line 49
+in APPPATH\Views\jadwalsmp.php on line 97.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('jadwalsmp', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('jadwalsmp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->jadwalsmp()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-13 03:05:21 --> Unclosed '{' on line 49
+in APPPATH\Views\jadwalsmp.php on line 97.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('jadwalsmp', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('jadwalsmp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->jadwalsmp()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-13 03:05:39 --> Unclosed '{' on line 49
+in APPPATH\Views\jadwalsmp.php on line 98.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('jadwalsmp', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('jadwalsmp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->jadwalsmp()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-13 03:07:09 --> Unclosed '{' on line 49
+in APPPATH\Views\jadwalsmp.php on line 98.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('jadwalsmp', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('jadwalsmp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->jadwalsmp()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-13 03:22:51 --> syntax error, unexpected end of file
+in APPPATH\Views\jadwalsmp.php on line 111.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('jadwalsmp', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('jadwalsmp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->jadwalsmp()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-13 03:28:51 --> Invalid file: "tambahjadwalsmp.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tambahjadwalsmp.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tambahjadwalsmp', [], true)
+ 3 APPPATH\Controllers\Home.php(38): view('tambahjadwalsmp')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tambahjadwalsmp()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-13 03:29:11 --> Invalid file: "tambahjadwalsmp.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tambahjadwalsmp.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tambahjadwalsmp', [], true)
+ 3 APPPATH\Controllers\Home.php(38): view('tambahjadwalsmp')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->tambahjadwalsmp()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-13 03:44:52 --> Invalid file: "e_jadwalsmp.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('e_jadwalsmp.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('e_jadwalsmp', [], true)
+ 3 APPPATH\Controllers\Home.php(50): view('e_jadwalsmp', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->edit_jadwalsmp('0')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-13 03:54:31 --> syntax error, unexpected single-quoted string "waktu", expecting ")"
+in APPPATH\Controllers\Home.php on line 67.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+ERROR - 2024-03-13 04:38:35 --> mysqli_sql_exception: Table 'perancanganaplikasi.jadwalmapelvii' doesn't exist in E:\jadwalsis\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\jadwalsis\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `jadwalm...', 0)
+#1 E:\jadwalsis\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jadwalm...')
+#2 E:\jadwalsis\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jadwalm...')
+#3 E:\jadwalsis\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `jadwalm...', Array, false)
+#4 E:\jadwalsis\app\Models\M_jadwal.php(38): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 E:\jadwalsis\app\Controllers\Home.php(89): App\Models\M_jadwal->edit('jadwalmapelvii', Array, Array)
+#6 E:\jadwalsis\system\CodeIgniter.php(915): App\Controllers\Home->aksi_e_jadwalvii()
+#7 E:\jadwalsis\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\jadwalsis\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\jadwalsis\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\jadwalsis\system\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\pu...')
+#11 {main}
+CRITICAL - 2024-03-13 04:38:35 --> Table 'perancanganaplikasi.jadwalmapelvii' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `jadwalmapelvii` SET `waktu` = :waktu:, `mata_pelajaran` = :mata_pelajaran:, `nama_guru` = :nama_guru:
+WHERE `id_jadwal` IS NULL', [...], false)
+ 2 APPPATH\Models\M_jadwal.php(38): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 3 APPPATH\Controllers\Home.php(89): App\Models\M_jadwal->edit('jadwalmapelvii', [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_e_jadwalvii()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-13 04:39:43 --> Undefined variable $frede
+in APPPATH\Views\e_jadwalvii.php on line 37.
+ 1 APPPATH\Views\e_jadwalvii.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $frede', 'E:\\jadwalsis\\app\\Views\\e_jadwalvii.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\jadwalsis\\app\\Views\\e_jadwalvii.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('e_jadwalvii', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('e_jadwalvii', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->edit_jadwalvii('0')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-13 06:53:32 --> Unclosed '{' on line 9 does not match ')'
+in APPPATH\Controllers\Home.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')

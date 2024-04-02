@@ -1,0 +1,219 @@
+CRITICAL - 2024-03-11 12:17:43 --> Undefined variable $message
+in APPPATH\Views\dashboard.php on line 25.
+ 1 APPPATH\Views\dashboard.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $message', 'E:\\jadwalsis\\app\\Views\\dashboard.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\jadwalsis\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:32:38 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Home.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:33:01 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:33:11 --> Unclosed '{' on line 9
+in APPPATH\Controllers\Home.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:33:20 --> Unclosed '{' on line 30
+in APPPATH\Controllers\Home.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:33:21 --> Unclosed '{' on line 30
+in APPPATH\Controllers\Home.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:33:22 --> Unclosed '{' on line 30
+in APPPATH\Controllers\Home.php on line 39.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:33:39 --> Unclosed '{' on line 30
+in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:33:58 --> Unclosed '{' on line 9
+in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:33:59 --> Unclosed '{' on line 9
+in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:33:59 --> Unclosed '{' on line 9
+in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:34:00 --> Unclosed '{' on line 9
+in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:34:00 --> Unclosed '{' on line 9
+in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:34:00 --> Unclosed '{' on line 9
+in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:34:01 --> Unclosed '{' on line 9
+in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:43:34 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Home.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:46:39 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Home.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:46:54 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Home.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:47:05 --> Unmatched '}'
+in APPPATH\Controllers\Home.php on line 62.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:50:47 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Home.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:58:34 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Home.php on line 45.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:58:52 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Home.php on line 45.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:59:03 --> Unclosed '{' on line 9
+in APPPATH\Controllers\Home.php on line 58.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')
+CRITICAL - 2024-03-11 12:59:29 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(250): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\jadwalsis\\vendor\\composer/../../app/Controllers/Home.php')
+ 2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClassmap('App\\Controllers\\Home')
+ 3 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\jadwalsis\\public\\index.php')

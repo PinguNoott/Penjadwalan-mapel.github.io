@@ -1,0 +1,418 @@
+CRITICAL - 2023-11-23 00:37:20 --> Too few arguments to function App\Models\M_tiff::edit(), 2 passed in E:\frede\app\Controllers\Home.php on line 261 and exactly 3 expected
+in APPPATH\Models\M_tiff.php on line 35.
+ 1 APPPATH\Controllers\Home.php(261): App\Models\M_tiff->edit('tb_barang', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_e_barang()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 00:37:35 --> Too few arguments to function App\Models\M_tiff::edit(), 2 passed in E:\frede\app\Controllers\Home.php on line 264 and exactly 3 expected
+in APPPATH\Models\M_tiff.php on line 35.
+ 1 APPPATH\Controllers\Home.php(264): App\Models\M_tiff->edit('tb_barang', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_e_barang()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 00:37:38 --> Too few arguments to function App\Models\M_tiff::edit(), 2 passed in E:\frede\app\Controllers\Home.php on line 264 and exactly 3 expected
+in APPPATH\Models\M_tiff.php on line 35.
+ 1 APPPATH\Controllers\Home.php(264): App\Models\M_tiff->edit('tb_barang', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_e_barang()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 00:37:50 --> Too few arguments to function App\Models\M_tiff::edit(), 2 passed in E:\frede\app\Controllers\Home.php on line 264 and exactly 3 expected
+in APPPATH\Models\M_tiff.php on line 35.
+ 1 APPPATH\Controllers\Home.php(264): App\Models\M_tiff->edit('tb_barang', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_e_barang()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 00:37:54 --> Too few arguments to function App\Models\M_tiff::edit(), 2 passed in E:\frede\app\Controllers\Home.php on line 264 and exactly 3 expected
+in APPPATH\Models\M_tiff.php on line 35.
+ 1 APPPATH\Controllers\Home.php(264): App\Models\M_tiff->edit('tb_barang', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_e_barang()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 00:38:35 --> Too few arguments to function App\Models\M_tiff::edit(), 2 passed in E:\frede\app\Controllers\Home.php on line 264 and exactly 3 expected
+in APPPATH\Models\M_tiff.php on line 35.
+ 1 APPPATH\Controllers\Home.php(264): App\Models\M_tiff->edit('tb_barang', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_e_barang()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 00:40:05 --> Too few arguments to function App\Models\M_tiff::edit(), 2 passed in E:\frede\app\Controllers\Home.php on line 263 and exactly 3 expected
+in APPPATH\Models\M_tiff.php on line 35.
+ 1 APPPATH\Controllers\Home.php(263): App\Models\M_tiff->edit('tb_barang', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_e_barang()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-23 00:42:36 --> mysqli_sql_exception: Table 'lelangonline.barang' doesn't exist in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `barang`...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `barang`...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `barang`...')
+#3 E:\frede\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `barang`...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(39): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 E:\frede\app\Controllers\Home.php(264): App\Models\M_tiff->edit('barang', Array, Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_e_barang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-23 00:42:36 --> Table 'lelangonline.barang' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `barang` SET `nama_barang` = :nama_barang:, `tanggal` = :tanggal:, `harga_awal` = :harga_awal:, `deskripsi_barang` = :deskripsi_barang:
+WHERE `id_barang` = :id_barang:', [...], false)
+ 2 APPPATH\Models\M_tiff.php(39): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 3 APPPATH\Controllers\Home.php(264): App\Models\M_tiff->edit('barang', [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_e_barang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 00:45:25 --> syntax error, unexpected ''id_barang'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+in APPPATH\Controllers\Home.php on line 262.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\frede\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 01:05:36 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 84.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(120): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 01:06:03 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 75.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(120): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 01:06:30 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 88.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(120): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 01:06:31 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 88.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(120): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 01:06:32 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 88.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(120): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 01:06:32 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 88.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(120): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 01:06:32 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 88.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(120): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 01:06:33 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 88.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(120): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 01:06:33 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 88.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(120): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 01:06:33 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 88.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(120): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 01:07:10 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 76.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(120): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 01:07:12 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 76.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(120): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 01:07:13 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 76.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(120): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 01:07:13 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 76.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(120): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 01:07:13 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 76.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(120): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 01:07:13 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 76.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(120): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-23 01:08:30 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(414): App\Models\M_tiff->tambah('tb_petugas', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_petugas()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-23 01:08:30 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_petugas` (`nama_petugas`, `username`, `password`, `id_level`) VALUES (:nama_petugas:, :username:, :password:, :id_level:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(414): App\Models\M_tiff->tambah('tb_petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-23 01:08:43 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(414): App\Models\M_tiff->tambah('tb_petugas', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_petugas()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-23 01:08:43 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_petugas` (`nama_petugas`, `username`, `password`, `id_level`) VALUES (:nama_petugas:, :username:, :password:, :id_level:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(414): App\Models\M_tiff->tambah('tb_petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 01:34:21 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 81.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(118): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 11:06:52 --> Too few arguments to function App\Models\M_tiff::edit(), 2 passed in E:\frede\app\Controllers\Home.php on line 136 and exactly 3 expected
+in APPPATH\Models\M_tiff.php on line 35.
+ 1 APPPATH\Controllers\Home.php(136): App\Models\M_tiff->edit('tb_barang', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->edit_barang('3')
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 11:59:50 --> syntax error, unexpected end of file
+in APPPATH\Views\masyarakat.php on line 87.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('masyarakat', [], true)
+ 3 APPPATH\Controllers\Home.php(105): view('masyarakat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 12:00:08 --> syntax error, unexpected end of file
+in APPPATH\Views\masyarakat.php on line 79.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('masyarakat', [], true)
+ 3 APPPATH\Controllers\Home.php(105): view('masyarakat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 12:00:16 --> syntax error, unexpected end of file
+in APPPATH\Views\masyarakat.php on line 79.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('masyarakat', [], true)
+ 3 APPPATH\Controllers\Home.php(105): view('masyarakat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 12:08:39 --> syntax error, unexpected end of file
+in APPPATH\Views\masyarakat.php on line 79.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('masyarakat', [], true)
+ 3 APPPATH\Controllers\Home.php(105): view('masyarakat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 12:11:03 --> syntax error, unexpected end of file
+in APPPATH\Views\masyarakat.php on line 79.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('masyarakat', [], true)
+ 3 APPPATH\Controllers\Home.php(105): view('masyarakat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 12:11:04 --> syntax error, unexpected end of file
+in APPPATH\Views\masyarakat.php on line 79.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('masyarakat', [], true)
+ 3 APPPATH\Controllers\Home.php(105): view('masyarakat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 12:11:04 --> syntax error, unexpected end of file
+in APPPATH\Views\masyarakat.php on line 79.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('masyarakat', [], true)
+ 3 APPPATH\Controllers\Home.php(105): view('masyarakat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 12:11:05 --> syntax error, unexpected end of file
+in APPPATH\Views\masyarakat.php on line 79.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('masyarakat', [], true)
+ 3 APPPATH\Controllers\Home.php(105): view('masyarakat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 12:11:57 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 85.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(118): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-23 12:12:10 --> syntax error, unexpected end of file
+in APPPATH\Views\petugas.php on line 76.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas', [], true)
+ 3 APPPATH\Controllers\Home.php(118): view('petugas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')

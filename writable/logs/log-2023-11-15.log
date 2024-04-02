@@ -1,0 +1,602 @@
+CRITICAL - 2023-11-15 01:03:33 --> syntax error, unexpected end of file
+in APPPATH\Config\Routes.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(783): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-15 01:03:33 --> syntax error, unexpected end of file
+in APPPATH\Config\Routes.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(783): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 01:06:41 --> mysqli_sql_exception: Column 'id_barang' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(134): App\Models\M_tiff->tambah('tb_lelang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 01:06:41 --> Column 'id_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_lelang` (`id_barang`, `tgl_lelang`, `harga_akhir`, `id_user`, `id_petugas`, `status`) VALUES (:id_barang:, :tgl_lelang:, :harga_akhir:, :id_user:, :id_petugas:, :status:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(134): App\Models\M_tiff->tambah('tb_lelang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 01:10:58 --> mysqli_sql_exception: Column 'id_barang' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(134): App\Models\M_tiff->tambah('tb_lelang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 01:10:58 --> Column 'id_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_lelang` (`id_barang`, `tgl_lelang`, `harga_akhir`, `id_user`, `id_petugas`, `status`) VALUES (:id_barang:, :tgl_lelang:, :harga_akhir:, :id_user:, :id_petugas:, :status:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(134): App\Models\M_tiff->tambah('tb_lelang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 01:15:43 --> mysqli_sql_exception: Column 'id_barang' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(134): App\Models\M_tiff->tambah('tb_lelang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 01:15:43 --> Column 'id_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_lelang` (`id_barang`, `tgl_lelang`, `harga_akhir`, `id_user`, `id_petugas`, `status`) VALUES (:id_barang:, :tgl_lelang:, :harga_akhir:, :id_user:, :id_petugas:, :status:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(134): App\Models\M_tiff->tambah('tb_lelang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-15 01:27:37 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+in APPPATH\Controllers\Home.php on line 176.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\frede\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-15 01:28:47 --> syntax error, unexpected ']', expecting ')'
+in APPPATH\Controllers\Home.php on line 190.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\frede\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 01:32:33 --> mysqli_sql_exception: Column 'id_barang' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 01:32:33 --> Column 'id_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_lelang` (`id_barang`, `tgl_lelang`, `harga_akhir`, `id_user`, `id_petugas`, `status`) VALUES (:id_barang:, :tgl_lelang:, :harga_akhir:, :id_user:, :id_petugas:, :status:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 01:37:32 --> mysqli_sql_exception: Column 'id_barang' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 01:37:32 --> Column 'id_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_lelang` (`id_barang`, `tgl_lelang`, `harga_akhir`, `id_user`, `id_petugas`, `status`) VALUES (:id_barang:, :tgl_lelang:, :harga_akhir:, :id_user:, :id_petugas:, :status:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 01:38:49 --> mysqli_sql_exception: Column 'id_barang' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 01:38:49 --> Column 'id_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_lelang` (`id_barang`, `tgl_lelang`, `harga_akhir`, `id_user`, `id_petugas`, `status`) VALUES (:id_barang:, :tgl_lelang:, :harga_akhir:, :id_user:, :id_petugas:, :status:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 01:39:43 --> mysqli_sql_exception: Column 'id_barang' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 01:39:43 --> Column 'id_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_lelang` (`id_barang`, `tgl_lelang`, `harga_akhir`, `id_user`, `id_petugas`, `status`) VALUES (:id_barang:, :tgl_lelang:, :harga_akhir:, :id_user:, :id_petugas:, :status:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 01:41:49 --> mysqli_sql_exception: Column 'id_barang' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 01:41:49 --> Column 'id_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_lelang` (`id_barang`, `tgl_lelang`, `harga_akhir`, `id_user`, `id_petugas`, `status`) VALUES (:id_barang:, :tgl_lelang:, :harga_akhir:, :id_user:, :id_petugas:, :status:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 01:42:42 --> mysqli_sql_exception: Column 'id_barang' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 01:42:42 --> Column 'id_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_lelang` (`id_barang`, `tgl_lelang`, `harga_akhir`, `id_user`, `id_petugas`, `status`) VALUES (:id_barang:, :tgl_lelang:, :harga_akhir:, :id_user:, :id_petugas:, :status:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 01:47:58 --> mysqli_sql_exception: Column 'id_barang' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 01:47:58 --> Column 'id_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_lelang` (`id_barang`, `tgl_lelang`, `harga_akhir`, `id_user`, `id_petugas`, `status`) VALUES (:id_barang:, :tgl_lelang:, :harga_akhir:, :id_user:, :id_petugas:, :status:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 01:48:44 --> mysqli_sql_exception: Column 'id_barang' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 01:48:44 --> Column 'id_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_lelang` (`id_barang`, `tgl_lelang`, `harga_akhir`, `id_user`, `id_petugas`, `status`) VALUES (:id_barang:, :tgl_lelang:, :harga_akhir:, :id_user:, :id_petugas:, :status:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 01:52:13 --> mysqli_sql_exception: Column 'id_barang' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 01:52:13 --> Column 'id_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_lelang` (`id_barang`, `tgl_lelang`, `harga_akhir`, `id_user`, `id_petugas`, `status`) VALUES (:id_barang:, :tgl_lelang:, :harga_akhir:, :id_user:, :id_petugas:, :status:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 01:56:38 --> mysqli_sql_exception: Column 'id_barang' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 01:56:38 --> Column 'id_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_lelang` (`id_barang`, `tgl_lelang`, `harga_akhir`, `id_user`, `id_petugas`, `status`) VALUES (:id_barang:, :tgl_lelang:, :harga_akhir:, :id_user:, :id_petugas:, :status:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 01:58:31 --> mysqli_sql_exception: Column 'id_barang' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 01:58:31 --> Column 'id_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_lelang` (`id_barang`, `tgl_lelang`, `harga_akhir`, `id_user`, `id_petugas`, `status`) VALUES (:id_barang:, :tgl_lelang:, :harga_akhir:, :id_user:, :id_petugas:, :status:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 01:58:36 --> mysqli_sql_exception: Column 'id_barang' cannot be null in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 01:58:36 --> Column 'id_barang' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_lelang` (`id_barang`, `tgl_lelang`, `harga_akhir`, `id_user`, `id_petugas`, `status`) VALUES (:id_barang:, :tgl_lelang:, :harga_akhir:, :id_user:, :id_petugas:, :status:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(171): App\Models\M_tiff->tambah('tb_lelang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_lelang()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-15 02:09:04 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Home.php on line 253.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\frede\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-15 02:09:20 --> Cannot redeclare App\Controllers\Home::aksi_t_history()
+in APPPATH\Controllers\Home.php on line 232.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-15 02:09:41 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+in APPPATH\Controllers\Home.php on line 233.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\frede\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-15 02:10:00 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Home.php on line 254.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\frede\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+CRITICAL - 2023-11-15 02:10:12 --> Cannot redeclare App\Controllers\Home::aksi_t_history()
+in APPPATH\Controllers\Home.php on line 232.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-15 02:10:25 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+in APPPATH\Controllers\Home.php on line 233.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\frede\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 02:13:17 --> mysqli_sql_exception: Unknown column 'id_masyarakat' in 'order clause' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\frede\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\frede\app\Controllers\Home.php(86): App\Models\M_tiff->tampil('tb_masyarakat', 'id_masyarakat')
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 02:13:17 --> Unknown column 'id_masyarakat' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_masyarakat`
+ORDER BY `id_masyarakat` DESC', [], false)
+ 2 APPPATH\Models\M_tiff.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(86): App\Models\M_tiff->tampil('tb_masyarakat', 'id_masyarakat')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 02:13:57 --> mysqli_sql_exception: Unknown column 'id_masyarakat' in 'order clause' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\frede\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\frede\app\Controllers\Home.php(86): App\Models\M_tiff->tampil('tb_masyarakat', 'id_masyarakat')
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 02:13:57 --> Unknown column 'id_masyarakat' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_masyarakat`
+ORDER BY `id_masyarakat` DESC', [], false)
+ 2 APPPATH\Models\M_tiff.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(86): App\Models\M_tiff->tampil('tb_masyarakat', 'id_masyarakat')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 02:14:50 --> mysqli_sql_exception: Unknown column 'id_masyarakat' in 'order clause' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\frede\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\frede\app\Controllers\Home.php(86): App\Models\M_tiff->tampil('tb_masyarakat', 'id_masyarakat')
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 02:14:50 --> Unknown column 'id_masyarakat' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_masyarakat`
+ORDER BY `id_masyarakat` DESC', [], false)
+ 2 APPPATH\Models\M_tiff.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(86): App\Models\M_tiff->tampil('tb_masyarakat', 'id_masyarakat')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 02:14:52 --> mysqli_sql_exception: Unknown column 'id_masyarakat' in 'order clause' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\frede\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\frede\app\Controllers\Home.php(86): App\Models\M_tiff->tampil('tb_masyarakat', 'id_masyarakat')
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 02:14:52 --> Unknown column 'id_masyarakat' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_masyarakat`
+ORDER BY `id_masyarakat` DESC', [], false)
+ 2 APPPATH\Models\M_tiff.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(86): App\Models\M_tiff->tampil('tb_masyarakat', 'id_masyarakat')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 02:14:52 --> mysqli_sql_exception: Unknown column 'id_masyarakat' in 'order clause' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\frede\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\frede\app\Controllers\Home.php(86): App\Models\M_tiff->tampil('tb_masyarakat', 'id_masyarakat')
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 02:14:52 --> Unknown column 'id_masyarakat' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_masyarakat`
+ORDER BY `id_masyarakat` DESC', [], false)
+ 2 APPPATH\Models\M_tiff.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(86): App\Models\M_tiff->tampil('tb_masyarakat', 'id_masyarakat')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->masyarakat()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
+ERROR - 2023-11-15 02:23:59 --> mysqli_sql_exception: Unknown column 'id_petugasr' in 'order clause' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\frede\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\frede\app\Controllers\Home.php(105): App\Models\M_tiff->tampil('tb_petugas', 'id_petugasr')
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->petugas()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2023-11-15 02:23:59 --> Unknown column 'id_petugasr' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_petugas`
+ORDER BY `id_petugasr` DESC', [], false)
+ 2 APPPATH\Models\M_tiff.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(105): App\Models\M_tiff->tampil('tb_petugas', 'id_petugasr')
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->petugas()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')

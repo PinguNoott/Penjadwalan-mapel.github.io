@@ -1,0 +1,24 @@
+ERROR - 2024-01-04 12:51:01 --> mysqli_sql_exception: Duplicate entry '2' for key 'PRIMARY' in E:\frede\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\frede\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\frede\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\frede\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\frede\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\frede\app\Models\M_tiff.php(50): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\frede\app\Controllers\Home.php(475): App\Models\M_tiff->tambah('tb_masyarakat', Array)
+#6 E:\frede\system\CodeIgniter.php(915): App\Controllers\Home->aksi_t_masyarakat()
+#7 E:\frede\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\frede\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\frede\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\frede\system\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public...')
+#11 {main}
+CRITICAL - 2024-01-04 12:51:01 --> Duplicate entry '2' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_masyarakat` (`id_user`, `nama_lengkap`, `username`, `password`, `telp`) VALUES (:id_user:, :nama_lengkap:, :username:, :password:, :telp:)', [...], false)
+ 2 APPPATH\Models\M_tiff.php(50): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(475): App\Models\M_tiff->tambah('tb_masyarakat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->aksi_t_masyarakat()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\frede\\public\\index.php')
